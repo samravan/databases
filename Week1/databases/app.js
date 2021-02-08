@@ -21,7 +21,7 @@ const answer9 = 'SELECT name, population FROM city ORDER BY population DESC LIMI
 const answer10 = 'SELECT sum(population) FROM country';
 
 
-connection.query(answer10, function (error, results, fields) {
+connection.query(answer2, function (error, results, fields) {
   if (error) throw error;
   console.log(results)
 });
